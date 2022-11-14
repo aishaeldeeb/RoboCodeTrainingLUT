@@ -10,6 +10,8 @@ public class RoboCodeTrain extends Robot implements LUTInterface{
      * @param X The input vector. An array of doubles.
      * @return The value returned by th LUT or NN for this input vector
      */
+
+    int x = 0;
     @Override
     public double outputFor(double[] X) {
         return 0;
